@@ -8,10 +8,9 @@ parallel-jobs = 1
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-included-patches = "'Enable slide to seek' 'Custom branding' 'Change header' 'Remove player controls background'"
-cli-source = "ReVanced/revanced-cli"
-patches-source = "ReVanced/revanced-patches"
-integrations-source = "ReVanced/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
 cli-version = "dev"
 patches-version = "dev"
 build-mode = "both"
