@@ -5,3 +5,13 @@ parallel-jobs = 1
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
+
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+included-patches = "'Enable slide to seek' 'Custom branding' 'Change header' 'Remove player controls background'"
+cli-source = "ReVanced/revanced-cli"
+patches-source = "ReVanced/revanced-patches"
+integrations-source = "ReVanced/revanced-integrations"
+cli-version = "dev"
+patches-version = "dev"
+build-mode = "both"
